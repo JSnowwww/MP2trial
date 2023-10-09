@@ -1,0 +1,178 @@
+*{
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: fnavbar-brand1fbff;
+    background-image: url(img/BGIMG.jpg);
+    background-repeat: cover;
+    padding: 0;
+    margin: 0;
+
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+.navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carousel-item{
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+#btn45 {
+    float: right;
+    margin-right: 50px;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .bavbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .bavbar-brand:focus,
+.navbar-light .bavbar-brand:hover{
+    color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+}
+.section-header {
+    color: aliceblue;
+}
+.products .card-body i{
+    font-size: 50px;
+}
+.about-text2 {
+    color: aliceblue;
+}
+
+.unique-footer {
+    position: relative;
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.unique-footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.unique-footer .footer-content .community-links ul {
+    color:white;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.unique-footer .footer-content .community-links ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.unique-footer .footer-content .community-links ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+.unique-footer .footer-content .community-links ul li a:hover {
+    color: gray;
+    background-color: aliceblue;
+}
+
+.social-links a img {
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/* responsive css */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    #logo {
+        padding: 0;
+        margin: 0;
+    }
+}

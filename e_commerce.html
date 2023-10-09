@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="e_commerce.css?v=1">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="img/logo.png" width="50px">
+            <a class="navbar-brand" href="#">&nbsp;GGEZ! Gaming Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="communityDropdown"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Community
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="communityDropdown">
+                                <li><a class="dropdown-item" href="under_maintenance.html">Game Invites</a></li>
+                                <li><a class="dropdown-item" href="under_maintenance.html">Events</a></li>
+                                <li><a class="dropdown-item" href="e_commerce.html">PC Parts</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Owner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <div class="search-con">
+                            <input type="search" class="form-control search" id="search" name="search"
+                                placeholder="Search...">
+                            <span class="icon-search"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <br>
+                <div class="row justify-content-md-center">
+                    <div class="col-sm-6 text-center">
+                        <div class="button-group">
+                            <!-- <button type="button" class="btn btn-light">Core Components</button>
+                            <button type="button" class="btn btn-light">Storage Devices</button>
+                            <button type="button" class="btn btn-light">Accessories</button>
+                            <button type="button" class="btn btn-light">Refurbished</button>
+                            <button type="button" class="btn btn-light">Shopping Tools</button> -->
+
+                            <a type="button" class="btn btn-light" href="under_maintenance.html" target="_self">Core
+                                Components</a>
+                            <a type="button" class="btn btn-light" href="under_maintenance.html" target="_self">Storage
+                                Devices</a>
+                            <a type="button" class="btn btn-light" href="under_maintenance.html"
+                                target="_self">Accessories</a>
+                            <a type="button" class="btn btn-light" href="under_maintenance.html"
+                                target="_self">Refurbished</a>
+                            <a type="button" class="btn btn-light" href="under_maintenance.html" target="_self">Shopping
+                                Tools</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-sm-12 text-center">
+                <div class="row justify-content-md-center">
+                    <div class="col-sm-12 text-left">
+                        <h1><label class="header-shop">SHOP PC COMPONENTS & STORAGE</label></h1>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="box" data-bs-toggle="modal" data-bs-target="#cpumodal">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="resources/cpu.jpg" alt="">
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="col-sm-12">
+                                        <h4>CPUs&nbsp;/&nbsp;Processors</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="box" data-bs-toggle="modal" data-bs-target="#ccmodal">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="resources/cc.png" alt="">
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-12">
+                                            <h4>Computer&nbsp;Cases</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="box" data-bs-toggle="modal" data-bs-target="#hdmodal">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="resources/hdd.jpg" alt="">
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-12">
+                                            <h4>Hard&nbsp;Drives</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row justify-content-md-center">
+                    <div class="col-sm-3">
+                        <div class="box" data-bs-toggle="modal" data-bs-target="#memorymodal">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="resources/m.png" alt="">
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-12">
+                                            <h4>Memory</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="box" data-bs-toggle="modal" data-bs-target="#mobomodal">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="resources/mb.jpg" alt="">
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-12">
+                                            <h4>MotherBoards</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="box" data-bs-toggle="modal" data-bs-target="#coolingmodal">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="resources/pcc.jpg" alt="">
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-12">
+                                            <h4>PC&nbsp;Cooling</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row justify-content-md-center">
+                    <div class="col-sm-3">
+                        <div class="box" data-bs-toggle="modal" data-bs-target="#psumodal">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="resources/ps.jpg" alt="">
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-12">
+                                            <h4>Power&nbsp;Supply&nbsp;Units</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="box" data-bs-toggle="modal" data-bs-target="#ssdmodal">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="resources/ssd.jpg" alt="">
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-12">
+                                            <h4>Solid&nbsp;State&nbsp;Drivers</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="box" data-bs-toggle="modal" data-bs-target="#gpumodal">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="resources/vgd.jpg" alt="">
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-12">
+                                            <h4>Video&nbsp;Graphic&nbsp;Devices</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+        <!-- Add Features -->
+        <div class="row">
+            <div class="col-sm-12">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">&nbsp;</div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="unique-footer">
+        <div class="footer-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="copyright">
+                        <p>&copy; 2023 Kodego WD83P. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- end of foots -->
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="shopmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Under Maintenance</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------- COMPUTER CASES ------------------------------------------ -->
+    <div class="modal fade" id="ccmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">COMPUTER CASES</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="ccplatform">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------- CPU / PROCESSOR ------------------------------------------ -->
+    <div class="modal fade" id="cpumodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">PROCESSORS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="cpuplatform">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------- HARD DRIVE ------------------------------------------ -->
+    <div class="modal fade" id="hdmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">HARD DRIVES</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="hdplatform">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------------------- MEMORY ------------------------------------------ -->
+        <div class="modal fade" id="memorymodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">MEMORY</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="memoryplatform">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------------- MOTHERBOARDS ------------------------------------------ -->
+    <div class="modal fade" id="mobomodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">MOTHERBOARDS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="moboplatform">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ----------------------------------- COOLING ------------------------------------------ -->
+    <div class="modal fade" id="coolingmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">PC COOLING</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="coolingplatform">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ----------------------------------- PSU ------------------------------------------ -->
+    <div class="modal fade" id="psumodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">POWER SUPPLY UNITS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="psuplatform">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ----------------------------------- SSD ------------------------------------------ -->
+    <div class="modal fade" id="ssdmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">SOLID STATE DRIVERS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="ssdplatform">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ----------------------------------- GPU ------------------------------------------ -->
+    <div class="modal fade" id="gpumodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">VIDEO GRAPHIC DEVICES</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="gpuplatform">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    <script src="e_commerce.js"></script>
+</body>
+</html>
